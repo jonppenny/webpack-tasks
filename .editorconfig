@@ -10,11 +10,7 @@ insert_final_newline = true
 indent_style = tab
 indent_size = 4
 
-[*.{c,h,cpp,hpp}]
-indent_style = space
-indent_size = 4
-
-[*.{txt,md}]
+[*.{c,h,cpp,hpp,php,txt,md}]
 indent_style = space
 indent_size = 4
 
@@ -24,4 +20,4 @@ indent_size = 2
 
 [*.js]
 indent_style = space
-indent_size = 4
+indent_size = 2
