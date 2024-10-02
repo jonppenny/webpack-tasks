@@ -6,11 +6,11 @@ trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.go]
+[{*.go,py,python}]
 indent_style = tab
 indent_size = 4
 
-[*.{c,h,cpp,hpp,php,txt,md}]
+[*.{c,h,cpp,hpp,php,js,txt,md}]
 indent_style = space
 indent_size = 4
 
@@ -18,6 +18,6 @@ indent_size = 4
 indent_style = space
 indent_size = 2
 
-[*.js]
-indent_style = space
+[*.{yml,yaml,toml}]
+indent_style = tab
 indent_size = 2
