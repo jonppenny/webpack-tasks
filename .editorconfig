@@ -6,7 +6,7 @@ trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
 
-[{*.go,py,python}]
+[*.{go,py,python}]
 indent_style = tab
 indent_size = 4
 
